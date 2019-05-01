@@ -1,0 +1,22 @@
+.btn{
+    background-color: yellow;
+    margin-bottom: 30px;
+}
+.wrapper{
+    background-color: yellow;
+    height: 340px;
+    width: 340px;
+}
+.box{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    position: relative;
+}
+.box2{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    position: relative;
+    top: 260px;
+}
