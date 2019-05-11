@@ -1,0 +1,130 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: calc(50% + 90px);
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+p.p0 {
+    color: red;
+}
+
+.container {
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 175px);
+    background-color: #FFF;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+.back,
+.back0 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    transition-duration: 1s;
+}
+
+.back {
+    background: linear-gradient(to right, #8cc63f, #FDC23D);
+    opacity: 0;
+}
+
+.back0 {
+    background: linear-gradient(to right, #FDC23D, #f15a24);
+}
+
+.back-anim {
+    opacity: 1;
+}
+
+.BB8-box {
+    width: 120px;
+    height: 180px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    transition-duration: 1s;
+}
+
+.BB8-head,
+.BB8-body,
+.BB8-body-shadow {
+    position: absolute;
+    transform-origin: 50% 120px;
+    transition-duration: 1s;
+    transform: rotate(-10deg);
+}
+
+.BB8-anim {
+    left: calc(100% - 135px)
+}
+
+.BB8-body-anim {
+    transform: rotate(180deg);
+}
+
+.BB8-head-anim {
+    transform: rotate(10deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.st0 {
+    fill: #EBF2FA;
+}
+
+/*avory*/
+.st1 {
+    fill: #4A94D2;
+}
+
+/*glass01*/
+.st2 {
+    fill: #337EA8;
+}
+
+/*glass02*/
+.st3 {
+    fill: #3B4D5A;
+}
+
+/*border-black*/
+.st4 {
+    opacity: 0.40;
+}
+
+/*shadow opacity*/
+.st5 {
+    fill: #fff;
+}
+
+/*shadow*/
+.st7 {
+    fill: #FDC23D;
+}
+
+/*yellow*/

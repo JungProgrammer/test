@@ -1,0 +1,12 @@
+.wrapper{
+    display: flex;
+}
+h2{
+    color: blue;
+}
+h1 {
+    display: block;
+}
+img{
+    display: block;
+}

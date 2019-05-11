@@ -18,3 +18,22 @@ inputRub.addEventListener('input', () => {
         }
     });
 });
+
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+        function (position) {
+            var lat =
+                position.coords.latitude;
+            var lng =
+                position.coords.longitude;
+            var options = {
+                position: new google.maps.LatLng(lat, lng)
+            }
+
+            var marker =
+                new google.maps.Marker(options);
+            marker.setMap(map);
+
+            console.log(position);
+        });
+}
